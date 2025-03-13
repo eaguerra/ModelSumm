@@ -1,4 +1,4 @@
-from tranformers import pipeline
+from transformers import pipeline
 import gradio as gr
 
 model = pipeline("summarization")
